@@ -1,0 +1,447 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+  background-color:  #ebebeb;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+ul li{
+  list-style-type: none;
+  display: none;
+}
+
+header{
+  background-color: #EAC926;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img{
+  width: 50%;
+}
+
+.hea1{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+button p{
+  align-content: center;
+}
+
+.fas.fa-bars{
+  width: 40px;
+  height: 40px;
+  background-color: #0044AA;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: center;
+  padding: 10px;
+  cursor: pointer;
+  line-height: 24px;
+}
+
+.fas.fa-bars:hover{
+  background-color: #0022AA;
+  cursor: pointer;
+}
+
+.banner{
+  display: block;
+  width: 100%;
+}
+
+
+p{
+  font-size: 12px;
+}
+
+section .main{
+  width: 90%;
+  text-align: center;
+}
+
+section .basado-ultima-visita{
+  display: flex;
+  flex-direction: column;
+
+}
+
+section .ofertas{
+  display: flex;
+  flex-direction: column;
+}
+
+section article{
+  margin: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+.containerInfo{
+  border-top: 1px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-color: #ebebeb;
+  border-style: solid;
+}
+
+h3{
+  font-size: 24px;
+  background-color: #ebebeb;
+  color: #666;
+  margin: 20px;
+  align-content: center;
+}
+
+.precio{
+  font-size: 20px;
+  display: contents;
+  width: 70%;
+}
+
+
+.descuento{
+  font-size: 16px;
+  color: #39b54a;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.descrip{
+  font-size: 16px;
+  color:#666;
+  display: none;
+}
+
+  article:hover h4 {
+  display: block;
+}
+
+section article:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+section article:hover .fa-truck{
+  transform: rotate(-90deg);
+}
+
+.fa-truck {
+  color: #39b54a;
+  height: 30px;
+  transition: .4s;
+  position: absolute;
+  left: 300px;
+
+}
+
+.fa-credit-card{
+  color:#1259c3;;
+}
+
+.fa-gift{
+  color: #1259c3;
+}
+
+.fa-user-shield{
+  color: #1259c3;;
+}
+
+.lupa{
+  display: block;
+  width: 15%;
+}
+
+footer{
+  padding:20px 5%;
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+footer article{
+  margin: 20px;
+}
+
+
+.formL{
+  width: 100%;
+  padding: 10px;
+}
+
+#nombreL{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#passwordL{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px
+}
+
+#enviarL{
+  color: white;
+  background-color:#0044AA ;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#enviarL:hover{
+  background-color: #0022AA;
+}
+
+#buscar{
+  width: 100%;
+}
+
+.mainR{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form11{
+padding: 10px;
+width: 100%;
+}
+
+#nombreR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#nombreUsuarioR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#emailR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#nacimiento{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#domicilio{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.perfilUsuario{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.interesesR{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 350px;
+}
+
+
+
+
+
+
+#contraseñaR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#confirmarR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#enviarR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color:#0044AA;
+  color: white;
+}
+
+#enviarR:hover{
+  background-color: #0022AA;
+}
+
+#borrarR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #AA0044;
+  color: white;
+}
+
+#borrarR:hover{
+  background-color: #CC1155;
+}
+
+#compradorR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#vendedorR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#int{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#moda{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#hogar{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#electro{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#VidaSana{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+#fotoR{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+label{
+  font-weight: bold;
+}
+
+
+
+.form11{
+padding: 10px;
+width: 100%;
+}
+
+/* Tablet */
+@media (min-width: 361px){
+  .productos{
+    width: 340px;
+    display: inline-block;
+  }
+  .fa-truck{
+    position: relative;
+  }
+  .copyt{
+    display: flex;
+  }
+
+}
+
+/* Desktop */

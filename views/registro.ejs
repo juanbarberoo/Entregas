@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><Bienvenido a Mercado Libre></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <img src="/images/logo-mercado-liebre.svg" alt="logo de mercado libre">
+      <form>
+        <input type="text" name="buscar" id="buscar" placeholder="Buscar productos, marcas">
+        <button type="submit" class="lupa"><i class="fa fa-search"></i></button>
+      </form>
+
+      <p><i class="fas fa-hand-holding-usd"></i>Compra en coutas y tarjeta de credito</p>
+
+      <ul>
+        <li><a href="·">Ofertas</a></li>
+        <li><a href=".">Tiendas Oficiales</a></li>
+        <li><a href=".">Vender</a></li>
+        <li><a href=".">Ayuda</a></li>
+      </ul>
+
+      <ul>
+        <li><a href="/registro"> Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+        <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href=".">Mis compras<i class="fas fa-shopping-basket"></i> </a></li>
+      </ul>
+
+      <i class="fas fa-bars"></i>
+    </header>
+
+    <section class="mainR">
+      <div class="form11">
+        <form action="" method="POST">
+          <input type="text" name="nombre" id="nombreR" placeholder="Nombre y Apellido">
+          <input type="text" name="nombreUsuario" id="nombreUsuarioR" placeholder="Nombre de usuario">
+          <input type="email" name="Email" id="emailR" placeholder="Email">
+        </form>
+      
+      
+  
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <form action="" method="POST">
+          <input type="date" name="nacimiento" id="nacimiento"> <br>
+          <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+        </form><br>
+  
+        <label for="perfil">Perfil del usuario</label><br>
+        
+        <p class="perfilUsuario"><input type="radio" name="perfil" value="Comprador" id="compradorR">Comprador
+        <input type="radio" name="perfil" value="Vendedor" id="vendedorR">Vendedor</p><br>
+        
+  
+        <label for="intereses">Intereses</label>
+        <div class="interesesR">
+              <input type="checkbox" name="int" id="int" value="Electro"><label for = "">Electro</label>
+              <input type="checkbox" name="moda" id="moda" value="Moda"><label for = "">Moda</label>
+              <input type="checkbox" name="hogar" id="hogar" value="Hogar"><label for = "">Hogar</label>
+              <input type="checkbox" name="electro" id="electro" value="Electro"><label for = "">Jugueteria</label>
+              <input type="checkbox" name="VidaSana" id="VidaSana" value="VidaSana"><label for = "">Vida Sana</label>
+        </div>
+  
+        <label for="foto">Elegi tu foto de usuario</label> <br>
+  
+        <p><input type="file" name="" id="fotoR"></p><br>
+  
+        <form action="" method="POST">
+          <input type="password" name="contraseña" id="contraseñaR" placeholder="Elegi tu contraseña">
+          <input type="password" name="confirmar" id="confirmarR" placeholder="Confirma tu contraseña">
+          </form><br>
+  
+        <p></p><a href="/"><input type="button" value="Enviar" id="enviarR"></a>
+        <a href="/registro"><input type="button" value="Borrar" id="borrarR"></a></p><br>
+      </div>
+    </section>
+
+    <footer>
+      <article>
+        <i class="fas fa-credit-card"></i>
+        <h4>Pagá con tarjeta o en efectivo</h4>
+        <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de pago. ¡Y siempre es seguro!</p>
+      </article>
+      <article>
+        <i class="fas fa-gift"></i>
+        <h4>Envío gratis desde los $ 2.500</h4>
+        <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.!</p>
+      </article>
+      <article>
+        <i class="fas fa-user-shield"></i>
+        <h4>Seguridad, de principio a fin</h4>
+        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegid@</p>
+      </article>
+      <div>
+        <p>Copyright © 1999-2019 MercadoLiebre S.R.L</p>
+      </div>
+    </footer>
+  </body>
+</html>
